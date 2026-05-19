@@ -7,14 +7,14 @@
   --bg-secondary: #f8f9fa;
   --text-primary: #111827;
   --text-secondary: #4b5563;
-  --accent: #2563eb;         /* Sleek tech blue */
+  --accent: #2563eb;  
   --accent-hover: #1d4ed8;
   --border: #e5e7eb;
 
-  /* Typography */
+  /* typography */
   --font-sans: 'Poppins', sans-serif;
   
-  /* Layout & Spacing */
+  /* layout & spacing */
   --max-width: 1100px;
   --radius-sm: 6px;
   --radius-md: 12px;
@@ -214,14 +214,14 @@ img {
   color: var(--text-primary);
 }
 
-/* Mobile Navigation Styles */
+/* mobile nav styles */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
   }
 
   .nav-links {
-    display: none; /* Hidden by default */
+    display: none; 
     flex-direction: column;
     position: absolute;
     top: 70px;
@@ -313,7 +313,7 @@ img {
   gap: 16px;
 }
 
-/* Simple placeholder for your picture/avatar */
+/* placeholder for my picture */
 .hero-avatar {
   flex-shrink: 0;
 }
@@ -321,16 +321,14 @@ img {
 .avatar-placeholder {
   width: 250px;
   height: 250px;
-  background-color: var(--bg-secondary);
   border: 1.5px solid var(--border);
   border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+  object-fit: cover;        
+  object-position: center;  
+  display: block;
 }
 
-/* Responsive adjustment for Mobile Phones */
+/* responsiveness */
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column-reverse;
@@ -384,14 +382,14 @@ img {
   margin-top: 32px;
 }
 
-/* Grid Layout */
+/* grid Layout */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px
 }
 
-/* Individual Cards */
+/* individual cards */
 .skills-card {
   background-color: var(--bg-primary);
   border: 1.5px solid var(--border);
@@ -427,7 +425,7 @@ img {
   margin-bottom: 24px;
 }
 
-/* Lists formatting */
+/* lists formatting */
 .skills-list {
   display: flex;
   flex-direction: column;
@@ -443,7 +441,7 @@ img {
   letter-spacing: -0.2px;
 }
 
-/* Custom bullet indicator */
+/* custom bullet indicator */
 .skills-list li::before {
   /* content: "→"; */
   position: absolute;
@@ -452,7 +450,7 @@ img {
   font-weight: bold;
 }
 
-/* Specific styling for Cisco Certs */
+/* specific styling for Cisco Certs */
 .certification-card .core-certs li {
   display: flex;
   flex-direction: column;
@@ -473,7 +471,7 @@ img {
 /* ==========================================================================
    7. CERTIFICATE BUTTONS & MODAL STYLES
    ========================================================================== */
-/* Aligning layout inside the Cisco list items */
+/* aligning layout inside the cisco list items */
 .cert-item-header {
   display: flex;
   justify-content: space-between;
@@ -481,7 +479,7 @@ img {
   width: 100%;
 }
 
-/* Elegant tiny action button */
+/* elegant tiny action button */
 .view-cert-btn {
   background-color: var(--bg-secondary);
   border: 1.5px solid var(--border);
@@ -499,7 +497,7 @@ img {
   color: #ffffff;
 }
 
-/* The Backdrop Overlay */
+/* the backdrop overlay */
 .modal {
   display: none; /* Hidden by default */
   position: fixed;
@@ -516,7 +514,7 @@ img {
   transition: opacity 0.2s ease-in-out;
 }
 
-/* Modal Box */
+/* modal Box */
 .modal-content {
   background-color: var(--bg-primary);
   padding: 24px;
@@ -529,14 +527,14 @@ img {
   transition: transform 0.2s ease-in-out;
 }
 
-/* Title inside modal */
+/* title inside modal */
 .modal-content h3 {
   margin-bottom: 16px;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-/* Image scaling */
+/* image scaling */
 .modal-content img {
   width: 100%;
   height: auto;
@@ -544,7 +542,7 @@ img {
   border: 1.5px solid var(--border);
 }
 
-/* Floating close button */
+/* floating close button */
 .modal-close {
   position: absolute;
   top: 20px;
@@ -573,7 +571,7 @@ img {
 
 /* ==========================================================================
    8. PROJECTS SECTION STYLES
-   ========================================================================== */
+   ========================================================================= */
 .projects-section {
   background-color: var(--bg-primary);
 }
@@ -612,7 +610,7 @@ img {
   height: 100%;
 }
 
-/* Technology Badges */
+/* technology badges */
 .project-tags {
   display: flex;
   gap: 8px;
@@ -643,7 +641,7 @@ img {
   margin-bottom: 20px;
 }
 
-/* Bullet list highlighting architectural milestones */
+/* bullet list highlighting architectural milestones */
 .project-features {
   list-style: none;
   display: flex;
@@ -673,7 +671,7 @@ img {
   color: var(--bg-primary);
 }
 
-/* Placeholder card styles */
+/* placeholder card styles */
 .placeholder-card {
   border-style: dashed;
   background-color: var(--bg-secondary);
@@ -700,7 +698,7 @@ img {
 
 /* certifications test 1 */
 
-/* Header & Back Button Layout */
+/* header & back button layout */
 .certs-view-header {
   display: flex;
   align-items: center;
@@ -727,7 +725,7 @@ img {
   color: var(--text-primary);
 }
 
-/* The 2-Column Grid */
+/* 2-Column grid */
 .all-certs-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -740,7 +738,7 @@ img {
   }
 }
 
-/* The Cards */
+/* cards */
 .cert-item-card {
   background-color: var(--bg-primary);
   border: 1px solid var(--border);
