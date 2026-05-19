@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Raleigh Tracer </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- 1. NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">rtracer</a>
+      
+      <button class="menu-toggle" id="mobile-menu" aria-label="Open Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="mailto:raleitracer@gmail.com" class="nav-btn">Send Email</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section id="about" class="section hero-section">
+    <div class="container hero-container">
+      
+      <div class="hero-content">
+        <span class="hero-greeting">Hi there, I'm</span>
+        <h1 class="hero-title">Raleigh Tracer</h1>
+        <div class="hero-location">
+          <i class="fas fa-map-marker-alt"></i> Angeles City, Philippines
+        </div>
+        <h2 class="hero-subtitle">Software Engineer & Network Specialist</h2>
+        <p class="hero-description">
+          I am a 3rd-year Information Technology student and aspiring tech professional with a unique blend of software development and 
+          networking fundamentals. On the development side, I build applications using JavaScript, PHP, Python, and Java. 
+          On the infrastructure side, I have a solid grasp of routing, switching, and enterprise networks (ITN/SRWE/ENSA), 
+          backed by a CompTIA Tech+ certification. I love bridging the gap between clean code and reliable infrastructure, and 
+          I'm currently focused on building hands-on projects to solve real-world problems.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="https://github.com/raleightracer" target="_blank" class="btn-secondary"><i class="fab fa-github"></i></a>
+          <a href="www.linkedin.com/in/raleigh-tracer-cabotage-a20198394" target="_blank" class="btn-secondary"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/trace.route_" target="_blank" class="btn-secondary"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Optional: You can place a profile picture or a cool tech graphic here -->
+      <div class="hero-avatar">
+        <div class="avatar-placeholder">💻</div>
+      </div>
+
+    </div>
+  </section>
+
+
+<!-- 3. SKILLS & CERTIFICATIONS SECTION -->
+<section id="skills" class="section skills-section">
+  <div class="container">
+    
+    <div class="section-header">
+      <h2>Tech Stack & Certifications</h2>
+      <p>My technical toolkit spanning application development, systems programming, and 
+        enterprise networking.
+      </p>
+      <div class="header-action-wrap">
+       <!--  <button href="certifications.html" class="btn" id="viewAllCertsBtn" onclick="toggleAllCertifications()">View Certificates</button> -->
+      <a href="certifications.html" class="btn">View Certificates</a>   
+      </div>
+    </div>
+
+    
+
+    <div class="skills-grid">
+  
+      <!-- Card 1: Web Development -->
+      <div class="skills-card">
+        <div class="card-header-wrap">
+          <div class="card-icon"></div>
+        </div>
+        <h3>Web Development</h3>
+        <p class="card-subtitle">Frontend & Backend Stacks</p>
+        <ul class="skills-list">
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>PHP</li>
+          <li>MySQL / phpMyAdmin</li>
+        </ul>
+      </div>
+
+      <!-- Card 2: Software Engineering -->
+      <div class="skills-card">
+        <div class="card-header-wrap">
+          <div class="card-icon"></div>
+        </div>
+        <h3>Software Engineering</h3>
+        <p class="card-subtitle">Object-Oriented Programming</p>
+        <ul class="skills-list">
+          <li>Python</li>
+          <li>Java</li>
+          <li>C#</li>
+        </ul>
+      </div>
+
+        <!-- Card 3: IT & Infrastructure -->
+      <div class="skills-card certification-card">
+        <div class="card-header-wrap">
+          <div class="card-icon"></div>
+        </div>
+        <h3>Network & Infrastructure</h3>
+        <p class="card-subtitle">IT & Networking Credentials</p> 
+        <ul class="skills-list core-certs">
+          <li>
+            <div class="cert-item-header">
+              <strong>CompTIA Tech+</strong>
+            </div>
+            <span>IT Foundations, Security, & Infrastructure</span>
+          </li>
+          <li>
+            <div class="cert-item-header">
+              <strong>Cisco ITN</strong>
+            </div>
+            <span>Introduction to Networks</span>
+          </li>
+          <li>
+            <div class="cert-item-header">
+              <strong>Cisco SRWE</strong>
+            </div>
+            <span>Switching, Routing, & Wireless Essentials</span>
+          </li>
+          <li>
+            <div class="cert-item-header">
+              <strong>Cisco ENSA</strong>
+            </div>
+            <span>Enterprise Networking, Security, & Automation</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+</section>
+
+<!-- ==========================================================================
+   4. PROJECTS SECTION
+   ========================================================================== -->
+<section id="projects" class="section projects-section">
+  <div class="container">
+
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p>A selection of applications and technical systems I have designed and engineered.</p>
+    </div>
+
+    <div class="projects-grid">
+      
+      <!-- Project Card: Library Management System -->
+    <div class="project-card">
+      <div class="project-content">
+        <div class="project-tags">
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL / XAMPP</span>
+        </div>
+        <h3 class="project-title">Web-Based Library Management System (Lead Programmer)</h3>
+        <p class="project-description">
+          A library management system engineered to organize library inventories, track student transactions, and handle administrative data securely.
+        </p> 
+        <ul class="project-features">
+          <li><strong>Backend Architecture:</strong> Developed custom PHP scripts to securely handle data processing, CRUD operations, and system events.</li>
+          <li><strong>Database Design:</strong> Designed a structured MySQL relational database managed via phpMyAdmin to maintain accurate records of books and transactions.</li>
+          <li><strong>Frontend Optimization:</strong> ntegrated JavaScript-driven filtering for instantaneous dynamic record queries.</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/raleightracer/library-management-system.git" target="_blank" class="project-link-btn"> Source Code </a>
+        </div>
+      </div>
+    </div>
+
+      <!-- Placeholder Card: Future Project / Networking Lab -->
+      <div class="project-card placeholder-card">
+        <div class="project-content">
+          <div class="placeholder-icon">🛠️</div>
+          <h3 class="project-title">Enterprise Network Topology Design</h3>
+          <p class="project-description">
+            Currently compiling and documenting simulated network designs focusing on VLAN trunking, secure routing configurations, and network automation architectures.
+          </p>
+          <span class="status-badge">Coming Soon</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+  <div id="certModal" class="modal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <h3 id="modalTitle">Certificate</h3>
+      <img id="modalImg" src="" alt="Certificate Preview">
+    </div>
+  </div>
+
+</body>
+</html>
