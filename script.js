@@ -16,6 +16,13 @@
     }, 10);
   }
 
+  function scrollToSection(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
   function closeModal() {
     const modal = document.getElementById('certModal');
     if (!modal) return;
