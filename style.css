@@ -100,6 +100,10 @@ img {
   padding: 10px 20px;
 }
 
+#btn-projects {
+  margin-top: 20px;
+}
+
 .social-icon-btn {
   width: 48px;
   height: 48px;
@@ -265,7 +269,7 @@ img {
 }
 
 .hero-greeting {
-  color: var(--accent);
+  color: gray;
   font-weight: 600;
   font-size: 1.1rem;
   text-transform: uppercase;
